@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikram G - Portfolio</title>
+    <link rel="stylesheet" href="./design.css">
+</head>
+
+<body>
+    <!-- !NavBar -->
+    <nav>
+        <article id="menuBar">
+            <div class="logo-block">
+                Vikram G
+            </div>
+            <div class="darkMode" title="Dark Mode">
+                <button id="darkModebtn">🌙</button>
+            </div>
+            <div class="navigation-block">
+                <li><a href=""></a>Home</li>
+                <li><a href=""></a>Projects</li>
+                <li><a href=""></a>Experience</li>
+                <li><a href=""></a>About</li>
+                <li>
+                    <div id="bars">
+                        <span class="barWhite"></span>
+                        <span class="barWhite"></span>
+                        <span class="barWhite"></span>
+                </li>
+
+                <!-- <div class="viewMenu">
+                    <li><a href=""></a>Home</li>
+                    <li><a href=""></a>Projects</li>
+                    <li><a href=""></a>Experience</li>
+                    <li><a href=""></a>About</li>
+                </div> -->
+            </div>
+        </article>
+    </nav>
+
+    <!-- !Page first Part -->
+    <section id="userDetails">
+        <div class="content-block" id="userName">
+            <p>Hello, I'm</p>
+            <h1 class="nameTag">Vikram G </h1>
+            <h4>Full-Stack Developer</h4>
+           <div class="assets">
+            <button class="connect">Resume</button>
+            <button class="connect">Contact Info</button>
+           </div>
+        </div>
+        <div class="content-block" id="userImage">
+            <img src="./Sources/2W8A0961.jpg" alt="Vikram G">
+
+        </div>
+
+    </section>
+
+
+
+
+
+<!-- JavaScript Files -->
+    <script src="./interactive.js"></script>
+</body>
+
+</html>
