@@ -227,7 +227,7 @@ li>a:hover {
     margin-top: 20px;
 }
 
-.assets>.connect {
+.assets>.connect,#gitHubBtn {
     padding: 10px;
     width: 120px;
     background-color: bisque;
@@ -244,11 +244,21 @@ li>a:hover {
     cursor: pointer;
 }
 
-.fa-github,
-.fa-linkedin {
+.fa-github,.fa-linkedin-in {
     margin: 10px 20px 20px 0px;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
+    background-color: rgb(68, 26, 195);
+    background-clip:text;
+    border-radius: 5px;
+    -webkit-text-fill-color: transparent;
+
+
+
+}
+.fa-github:hover,.fa-linkedin-in:hover{
+background-color:red;
+
 
 }
 
@@ -334,15 +344,15 @@ li>a:hover {
     font-family: "Roboto Slab", serif;
 }
 
-#exp-head {
+#exp-head, #project>h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: "Langar", system-ui;
 }
 
-#exp-head>h1 {
-    font-size: 44px;
+#exp-head>h1, #project>h2 {
+    font-size: 40px;
     /* text-transform: uppercase; */
     letter-spacing: 5px;
 }
@@ -375,5 +385,24 @@ li>a:hover {
 }
 ul>li{
     list-style: none;
-    margin:5px 0px 20px 40px;
+    margin:15px 0px 0px 40px;
+}
+.skills>ul>li>i{
+    font-size: 25px;
+    margin-right: 40px;
+
+}
+.skillKnowledge{
+    margin: 10px 0px 0px 60px;
+    text-indent: 50px;
+}
+#project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#project>p{
+    margin: 15px 20px 10px;
+    text-align: center;
 }
