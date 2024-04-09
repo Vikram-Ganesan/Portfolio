@@ -23,7 +23,7 @@
                 <button id="darkModebtn">🌙</button>
             </div>
             <div class="navigation-block">
-                <li><a href="#aboutText">About</a> </li>
+                <li><a href="#about">About</a> </li>
                 <li><a href="#skillsAndExperience">Experience</a> </li>
                 <li><a href="#project">Projects</a></li>
                 <li><a href="#footer">Contact</a></li>
@@ -45,12 +45,13 @@
             <h1 class="nameTag">Vikram G </h1>
             <h4>Full-Stack Developer</h4>
             <div class="assets">
-                <button class="connect" onclick="location.href='./#footer'">Resume</button>
-                <button class="connect">Contact Info</button>
+                <button class="connect" onclick="window.open('/.Sources/Vikram G_FullStackDeveloper.pdf')">Resume</button>
+                <button class="connect" onclick="location.href='./#footer'">Contact Info</button>
 
             </div>
             <div class="connect-media">
-                <a href="https://www.linkedin.com/in/vikramganesan" target="_blank"> <i class="fa-brands fa-linkedin-in"></i>
+                <a href="https://www.linkedin.com/in/vikramganesan" target="_blank"> <i
+                        class="fa-brands fa-linkedin-in"></i>
                 </a>
                 <a href="https://github.com/Vikram-Ganesan" target="_blank"><i class="fa-brands fa-github"
                         title="Git Hub Profile"></i></a>
@@ -68,7 +69,7 @@
             <article class="aboutContent">
                 <img src="./Sources/1L8A8063-02.jpeg" alt="Vikram" class="user-image-content">
             </article>
-            <article class="aboutText">
+            <article class="aboutText" id="about">
                 <p>Get To Know More</p>
                 <h1>About Me</h1>
 
@@ -125,17 +126,17 @@
             <article class="skills">
                 <h2>Technical skills</h4><br>
                     <ul>
-                        <li><i class="fa-brands fa-java"></i>Core Java<br><br>
+                        <li><i class="fa-brands fa-java"></i>Core Java<br>
                             <div class="skillKnowledge">
                                 Intermediate</div>
                         </li>
-                        <li><i class="fa-brands fa-html5"></i>HTML<br><br>
+                        <li><i class="fa-brands fa-html5"></i>HTML<br>
                             <div class="skillKnowledge">Intermediate</div>
                         </li>
                         <li><i class="fa-brands fa-css3-alt"></i>CSS<br>
                             <div class="skillKnowledge">Intermediate</div>
                         </li>
-                        <li><i class="fa-brands fa-js"></i>Java Script<br><br>
+                        <li><i class="fa-brands fa-js"></i>Java Script<br>
                             <div class="skillKnowledge">Intermediate</div>
                         </li>
                         <li><i class="fa-solid fa-database"></i>SQL<br>
@@ -154,13 +155,25 @@
             <p>Created own portfolio and practiced to clone the static existing web application by using HTML, CSS
                 properties and maintained, explaining things to others, what to do and what you shouldn't do on the web
                 app.</p>
-                <p></p>
-            <button id="gitHubBtn" title="Git Hub" onclick="location.href='https://github.com/Vikram-Ganesan'" >Git Hub</button>
+            <p>I created a JDBC console-based project to understand crud operations like inserting, updating, and
+                deleting data from the user's end.</p>
+            <button id="gitHubBtn" title="Git Hub" onclick="location.href='https://github.com/Vikram-Ganesan'">Git
+                Hub</button>
         </section>
     </main>
 
     <footer>
-        <section id="footer"></section>
+        <section id="footer">
+            <p>Get in Touch</p>
+            <h1>Contact Me</h1>
+            <ul id="contact">
+                <li><i class="fa-regular fa-envelope"></i><a class="contact" href="mailto:gvikram989@gmai.com">gvikram989@gmail.com</a></li>
+                <li><i class="fa-solid fa-phone"></i><a class="contact" href="tel:+91852451368">+91 8524951368</a></li>
+                <li><i class="fa-brands fa-linkedin"></i><a class="contact" href="https://www.linkedin.com/in/vikramganesan" target="_blank">LinkedIn Profile</a></li>
+            </ul>
+
+        </section>
+        <div id="rights">Copyrights &copy; Vikram G. All rights reserved </div>
     </footer>
 
 
